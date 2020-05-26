@@ -1,0 +1,29 @@
+{
+  "name": "howto-validate-rest-using-openapi",
+  "version": "1.0.0",
+  "description": "How to validate a RESTful API with Express using OpenAPI specification",
+  "scripts": {
+    "start": "run-p app server",
+    "app": "cd app && npm start",
+    "server": "cd server && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inigomarquinez/howto-validate-rest-using-openapi.git"
+  },
+  "keywords": [
+    "openapi3",
+    "express",
+    "cypress-io",
+    "validation"
+  ],
+  "author": "Íñigo Marquínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inigomarquinez/howto-validate-rest-using-openapi/issues"
+  },
+  "homepage": "https://github.com/inigomarquinez/howto-validate-rest-using-openapi#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
